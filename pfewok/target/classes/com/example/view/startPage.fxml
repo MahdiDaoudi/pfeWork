@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" styleClass="parentPane" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.controllerStartPage">
+   <children>
+      <CubicCurve controlX1="-257.3333435058594" controlX2="-217.33334350585938" controlY1="75.0" controlY2="-177.66665649414062" endX="147.0" endY="-195.0" fill="#2fd276" layoutX="553.0" layoutY="195.0" startX="147.0" startY="254.99996948242188" stroke="BLACK" strokeWidth="0.0" styleClass="CubicCurve" />
+      <AnchorPane layoutX="-1.0" layoutY="-8.0" prefHeight="450.0" prefWidth="350.0" stylesheets="@../style/style.css">
+         <children>
+            <ImageView fx:id="view" fitHeight="300.0" fitWidth="300.0" layoutX="51.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/startImage.png" />
+               </image>
+            </ImageView>
+            <CubicCurve controlX1="185.33334350585938" controlX2="185.33334350585938" controlY1="120.00001525878906" controlY2="330.6666564941406" endX="373.5" endY="352.66668701171875" fill="#2fd276" layoutX="326.0" layoutY="106.0" startX="55.333343505859375" startY="352.6666564941406" stroke="BLACK" strokeWidth="0.0" styleClass="CubicCurve" />
+            <Button fx:id="btnStart" layoutX="107.0" layoutY="351.0" minHeight="30.0" minWidth="200.0" mnemonicParsing="false" onMousePressed="#letsStart" stylesheets="@../style/style.css" text="L'ets Start">
+               <font>
+                  <Font name="Poppins Light" size="13.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="447.0" layoutY="141.0" lineSpacing="7.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;PHARMAROC is a desktop pharmacy management app, streamlining prescription and inventory management for efperations.&quot;" textAlignment="CENTER" wrappingWidth="228.13674926757812">
+               <font>
+                  <Font name="Poppins Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

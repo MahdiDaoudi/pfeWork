@@ -1,0 +1,42 @@
+.parentPane {
+  -fx-background-color: #fff;
+}
+.medicinePane {
+  -fx-background-color: #fff;
+  -fx-effect: dropshadow(three-pass-box, #444, 10, 0, 0, 0);
+}
+.medicinePane-title{
+    -fx-background-color: #00977c;
+}
+.imageMedicine{
+    -fx-border-width: 0.5;
+    -fx-border-color: #000;
+}
+.button{
+    -fx-background-color: #00977c;
+    -fx-background-radius: 0;
+    -fx-text-fill: #fff;
+}
+.button:hover{
+    -fx-border-width: 1;
+    -fx-border-color: #00977c;
+    -fx-text-fill: #00977c;
+    -fx-background-color: transparent;
+}
+.medicineBottomPane{
+    -fx-background-color: #ddd;
+}
+.medicineTextField{
+    -fx-background-radius: 0;
+    -fx-background-color: #fff;
+    -fx-border-color: #00977c;
+    -fx-border-width: 0.5;
+}
+.column-header{
+    -fx-background-color: #2fd276;
+    -fx-border-color: #fff;
+    -fx-border-width: 0 1 0 0;
+}
+.column-header .label{
+    -fx-text-fill: #fff;
+}

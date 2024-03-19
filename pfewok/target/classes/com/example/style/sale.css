@@ -1,0 +1,44 @@
+.parentPane {
+  -fx-background-color: #fff;
+}
+.paneSale {
+  -fx-background-color: #fff;
+  -fx-effect: dropshadow(three-pass-box, #444, 10, 0, 0, 0);
+}
+.column-header {
+  -fx-background-color: #2fd276;
+  -fx-border-color: #fff;
+  -fx-border-width: 0 1 0 0;
+}
+.column-header .label {
+  -fx-text-fill: #fff;
+  -fx-font-weight: bold;
+  -fx-font-size: 12;
+}
+.paneHeader {
+  -fx-background-color: #00977c;
+}
+.facturePaneHeader {
+  -fx-background-color: #2fd276;
+}
+.vboxFacture {
+  -fx-border-width: 0 0 0 1;
+  -fx-border-color: #123321;
+}
+.textFieldFacture {
+  -fx-background-radius: 0;
+  -fx-background-color: #fff;
+  -fx-border-color: #00977c;
+  -fx-border-width: 0.5;
+}
+.buttonFacture {
+  -fx-background-color: #00977c;
+  -fx-background-radius: 0;
+  -fx-text-fill: #fff;
+}
+.buttonFacture:hover {
+  -fx-border-width: 1;
+  -fx-border-color: #00977c;
+  -fx-text-fill: #00977c;
+  -fx-background-color: transparent;
+}

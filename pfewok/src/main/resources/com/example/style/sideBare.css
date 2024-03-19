@@ -1,0 +1,27 @@
+.paneSideBare {
+  -fx-background-color: #ddd;
+}
+.sidebare {
+  -fx-background-color: linear-gradient(
+    to bottom left,
+    rgba(0, 151, 123, 1) 0%,
+    #2fd276 100%
+  );
+}
+.buttonSideBare {
+  -fx-background-color: transparent;
+  -fx-transition: padding 3s;
+}
+.buttonSideBare:hover {
+  -fx-padding: 0 0 0 25;
+}
+.buttonSideBare:hover .anchro {
+  -fx-border-color: #fff;
+  -fx-border-width: 0 0 0 2;
+}
+.label {
+  -fx-text-fill: #fff;
+}
+.imageViewSideBare {
+  -fx-background-radius: 50;
+}
